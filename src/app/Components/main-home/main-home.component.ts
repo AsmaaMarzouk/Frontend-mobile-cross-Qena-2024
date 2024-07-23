@@ -13,7 +13,13 @@ export class MainHomeComponent {
 // }
 
 // use class model
-track:TrackInfo=new TrackInfo("Frontend",44,["html","css","JS"]);
-track2:TrackInfo=new TrackInfo("MEARN",44,["Node js","css","JS"]);
+track:TrackInfo=new TrackInfo("Frontend","https://img.freepik.com/free-vector/frontend-developer-typographic-header-website-interface-design-improvement-web-page-programming-coding-testing-it-profession-isolated-flat-vector-illustration_613284-304.jpg",44,["html","css","JS"]);
+// track2:TrackInfo=new TrackInfo("MEARN",44,["Node js","css","JS"]);
+inputValue:string="ahmed";
 
+toggleimg:boolean=true;
+
+toggleImg(){
+  this.toggleimg=!this.toggleimg;
+}
 }
